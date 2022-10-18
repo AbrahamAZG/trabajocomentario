@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Comment Section</title>
+</head>
+
+<body>
+  <main class="wraper">
+    <div class="primeraCarta">
+      <div class="contador">
+        <img src="./images/contador1.png">
+      </div>
+      <div class="cajaparteuno">
+        <Style>
+          .personaje {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .reply {
+            color: #5357B6;
+          }
+
+          .personajedos {
+            display: flex;
+            align-items: center;
+            color: #334253;
+            gap: 10px;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+           
+          }
+
+          .cajalinea {
+            width: 300px;
+            height: 280px;
+            border-left: 3px solid grey;
+            position: absolute;
+            bottom: 340px;
+            left: 60px;
+            background-color: #f2f2f2;
+            z-index: -100;
+            bottom: 160px
+            
+    
+          }
+
+          .nombre {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+          }
+
+          .delete {
+            color: #ED6368;
+            margin-right: 10px;
+          }
+
+          .fecha {
+            color: #67727E;
+          }
+
+          .form {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            width: 90%;
+            margin-left: 35px;
+            margin-top: 25px;
+            align-items: center;
+          }
+
+          .form textarea {
+            width: 70%;
+            border-radius: 0.5rem;
+            padding: 1rem;
+          }
+
+          .form button {
+            width: 15%;
+            height: 2.5rem;
+            background-color: hsl(238, 40%, 52%);
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+          }
+        </Style>
+        <div class="personaje">
+          <div class="cajarepuesto">
+            <div class="personajedos">
+              <img src="./images/avatars/image-amyrobson.webp"><span class="nombre"> Amy robson</span><span
+                class="fecha">1 week ago</span> </div>
+          </div><span class="reply"><img src="./images/flecha.png"> Reply</span>
+        </div>
+        <p class="testimonio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis mollitia cumque vero libero! Minima enim
+          blanditiis
+          dolor id accusamus et repellat.
+        </p>
+      </div>
+    </div>
+    <div class="primeraCarta">
+      <div class="contador">
+        <img src="./images/contador1.png">
+      </div>
+      <div class="cajaparteuno">
+
+        <div class="personaje">
+          <div class="cajarepuesto">
+            <div class="personajedos">
+              <img src="./images/avatars/image-amyrobson.webp">Amy robson <span class="fecha">3 week ago</span> </div>
+          </div><span class="reply"><img src="./images/flecha.png">Reply</span>
+        </div>
+        <p class="testimonio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis mollitia cumque vero libero! Minima enim
+          blanditiis
+          dolor id accusamus et repellat.
+        </p>
+      </div>
+    </div>
+    <div class="primeraCarta">
+      <div class="contador">
+        <img src="./images/contador1.png">
+      </div>
+      <div class="cajaparteuno">
+        <div class="personaje">
+          <div class="cajarepuesto">
+            <div class="personajedos">
+              <img src="./images/avatars/image-amyrobson.webp">Amy robson <span class="fecha">5 week ago</span></div>
+          </div><span class="reply"><img src="./images/flecha.png">Reply</span>
+        </div>
+        <p class="testimonio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis mollitia cumque vero libero! Minima enim
+          blanditiis
+          dolor id accusamus et repellat.
+        </p>
+      </div>
+    </div>
+    <div class="primeraCarta ">
+      <div class="contador">
+        <img src="./images/contador1.png">
+      </div>
+      <div class="cajaparteuno">
+        <div class="personaje">
+          <div class="cajarepuesto">
+            <div class="personajedos">
+              <img src="./images/avatars/image-amyrobson.webp">Amy robson <span class="fecha">3 week ago</span></div>
+          </div><span class="reply"><span class="delete">Delete</span><img src="./images/flecha.png">Reply</span>
+        </div>
+        <p class="testimonio">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis mollitia cumque vero libero! Minima enim
+          blanditiis
+          dolor id accusamus et repellat.
+        </p>
+      </div>
+    </div>
+
+    <div class="cajalinea"></div>
+    <form action="" class="form">
+      <figure>
+        <img src="./images/avatars/image-juliusomo.png" alt="" width="48">
+      </figure>
+      <textarea name="" id="" cols="30" rows="5" placeholder="Add a comment..."></textarea>
+      <button>SEND</button>
+    </form>
+
+  </main>
+</body>
+
+</html>
